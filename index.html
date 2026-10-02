@@ -68,9 +68,7 @@
     <div class="hero">
       <h1>PSA-graded sports cards,<br><span>picked and graded in Boise.</span></h1>
       <p>We buy raw cards, send the best ones to PSA, and sell the slabs. Every card we ship comes with the cost, the grade, and the story behind it.</p>
-      <!-- TODO: replace # with your eBay store URL -->
       <a class="cta" href="#" data-link="ebay">Shop on eBay</a>
-      <!-- TODO: replace # with your CollX profile URL -->
       <a class="cta ghost" href="#" data-link="collx">Shop on CollX</a>
     </div>
   </div>
@@ -128,7 +126,6 @@
     <div class="thanks">
       <h2>Got here from a card we mailed you?</h2>
       <p class="sub">Thanks for the purchase — seriously. If anything about the card or the shipping wasn't right, email us and we'll make it right. And if you want first look at what we list next, the TikTok is where it shows up first.</p>
-      <!-- TODO: replace with your business email -->
       <a class="cta" href="mailto:hello@boisesummitcards.com" data-link="email">Email us</a>
     </div>
   </section>
@@ -143,9 +140,9 @@
 <script>
   // Single place to set outbound links — edit these and every button updates.
   const LINKS = {
-    ebay:   "#",   // TODO e.g. https://www.ebay.com/str/boisesummitcards
-    collx:  "#",   // TODO e.g. https://www.collx.app/u/boisesummitcards
-    tiktok: "#",   // TODO e.g. https://www.tiktok.com/@boisesummitcards
+    ebay:   "https://ebay.io/m/yfThNf",
+    collx:  "https://share.collx.app/Boisummitcards",
+    tiktok: "https://www.tiktok.com/@boisummitcards",
   };
   document.querySelectorAll('[data-link]').forEach(a => { const k = a.dataset.link; if (LINKS[k] && LINKS[k] !== '#') { a.href = LINKS[k]; a.target = '_blank'; a.rel = 'noopener'; } });
 </script>
